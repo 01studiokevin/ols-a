@@ -1,0 +1,12 @@
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\bin\Debug\net5.0\OLS.Models.deps.json
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\bin\Debug\net5.0\OLS.Models.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\bin\Debug\net5.0\ref\OLS.Models.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\bin\Debug\net5.0\OLS.Models.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\obj\Debug\net5.0\OLS.Models.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\obj\Debug\net5.0\OLS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\obj\Debug\net5.0\OLS.Models.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\obj\Debug\net5.0\OLS.Models.AssemblyInfo.cs
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\obj\Debug\net5.0\OLS.Models.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\obj\Debug\net5.0\OLS.Models.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\obj\Debug\net5.0\ref\OLS.Models.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Models\obj\Debug\net5.0\OLS.Models.pdb

@@ -7,23 +7,26 @@ namespace OLS.Models
         [Key]
         public int Id { get; set; }
 
-        [Required,MaxLength(20)]
-        public string? Name { get; set; }
+        [Required,MaxLength(30)]
+        public string UserName { get; set; }
 
         [Required,MaxLength(1)]
-        public string? Gender { get; set; }
+        public string Gender { get; set; }
 
-        [Required,MaxLength(20)]
-        public string? Account { get; set; }
+        [Required,MaxLength(50)]
+        public string Account { get; set; }
 
         [Required, MaxLength(20)]
-        public string? Password { get; set; }
+        public string Password { get; set; }
 
         [MaxLength(15)]
-        public string? Tel { get; set; }
+        public string Tel { get; set; }
+
+        [MaxLength(150)]
+        public string Profile { get; set; }
 
         [Required,MaxLength(1)]
-        public string? IsActive { get; set; }
+        public string IsActive { get; set; }
 
     }
 }
