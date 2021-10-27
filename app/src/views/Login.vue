@@ -65,9 +65,8 @@
   </div>
 </template>
 
-
-
 <script>
+import axios from "axios";
 export default {
   data() {
     return {
@@ -105,7 +104,22 @@ export default {
       item.isActive = true;
     },
     login() {
-      axios.get("https//localhost:");
+      axios
+        .get("/Login", {
+          params: {
+            account: this.formState.account,
+            pwd: this.formState.pwd,
+          },
+        })
+        .then(function (response) {
+          alert(response.data);
+        })
+        .catch(function (error) {
+          alert(error);
+        })
+        .then(function () {
+          // 总是会执行
+        });
     },
   },
 };

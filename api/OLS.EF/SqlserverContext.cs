@@ -23,7 +23,7 @@ namespace OLS.EF
                 {
                     Id = 1,
                     UserName = "李明航",
-                    Account = "kevin.minghnag.li@outlook.com",
+                    Account = "kevin.minghang.li@outlook.com",
                     Password = "123456",
                     Gender = "1",
                     Tel = "19923985290",

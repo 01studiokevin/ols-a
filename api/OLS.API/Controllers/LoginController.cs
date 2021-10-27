@@ -23,19 +23,23 @@ namespace OLS.API.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<UserInfo> Login(string account, string pwd)
+        public string Login(string account, string pwd)
         {
-            var users = _context.UserInfos.Where(i => i.Account == account);
-            return users;
+            var users = _context.UserInfos.Where(i => i.Account.Equals(account)).FirstOrDefault();
+            string result = string.Empty;
+            if (users is null)
+            {
+                result = string.Empty;
+            }
+            else if (users.Password.Equals(pwd))
+            {
+                result = Newtonsoft.Json.JsonConvert.SerializeObject(users);
+            }
+            else
+            {
+                result = "pwd error";
+            }
+            return result;
         }
-
-        [HttpGet]
-        [Route("GetUsers")]
-        public IEnumerable<UserInfo> GetUsers()
-        {
-            var users = _context.UserInfos.ToList();
-            return users;
-        }
-
     }
 }

@@ -5,5 +5,6 @@ import store from "./store";
 import Antd from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";
 import axios from "axios";
+axios.defaults.baseURL = "/api";
 
-createApp(App).use(store).use(router).use(Antd).use(axios).mount("#app");
+createApp(App).use(store).use(router).use(Antd).mount("#app");
