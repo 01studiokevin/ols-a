@@ -10,14 +10,19 @@ namespace OLS.Models
         [Required, MaxLength(50)]
         public string CourseName { get; set; }
 
-        [Required,MaxLength(30)]
+        [Required, MaxLength(30)]
         public string StartTime { get; set; }
 
-        [Required,MaxLength(30)]
+        [Required, MaxLength(30)]
         public string EndTime { get; set; }
 
-        [Required, MaxLength(50)]
-        public string Describe { get; set; }
+        [Required]
+        public int JoinCount { get; set; }
 
+        [Required, MaxLength(30)]
+        public string CourseStatus { get; set; }
+
+       [Required,MaxLength(100)]
+        public string  PeriodCount { get; set; }//?????
     }
 }

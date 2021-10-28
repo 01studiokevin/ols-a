@@ -15,3 +15,4 @@ C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\ref\OLS.EF.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.pdb
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.genruntimeconfig.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.csproj.CopyComplete

@@ -61,3 +61,4 @@ C:\Users\kevin\Desktop\0\git\ols\api\OLS.API\obj\Debug\net5.0\OLS.API.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.API\obj\Debug\net5.0\ref\OLS.API.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.API\obj\Debug\net5.0\OLS.API.pdb
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.API\obj\Debug\net5.0\OLS.API.genruntimeconfig.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.API\obj\Debug\net5.0\OLS.API.csproj.CopyComplete

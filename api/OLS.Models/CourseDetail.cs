@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OLS.Models
 {
@@ -19,7 +14,23 @@ namespace OLS.Models
         [ForeignKey("CourseId")]
         public Course  Course{ get; set; }
 
+        [Required, MaxLength(50)]
+        public string Period { get; set; }//每周学时
+
+        [Required, MaxLength(500)]
+        public string Summarize { get; set; }
+
+        [Required, MaxLength(50)]
+        public string Description { get; set; }
+
+        [Required, MaxLength(500)]
+        public string Prepare { get; set; }
+
+        [Required, MaxLength(250)]
+        public string Target { get; set; }
+
         [Required]
-        public int MyProperty { get; set; }
+        public string Reference { get; set; } //参考资料字段
+
     }
 }
