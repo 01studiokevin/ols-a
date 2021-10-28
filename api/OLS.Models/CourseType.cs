@@ -8,9 +8,18 @@ namespace OLS.Models
         public int Id { get; set; }
 
         [Required, MaxLength(50)]
-        public string CourseName { get; set; }
+        public string TypeName { get; set; }
 
         [Required, MaxLength(50)]
-        public string CourseValue { get; set; }
+        public string TypeValue { get; set; }
+
+        [Required]
+        public int GroupTypeId { get; set; }
+
+        public CourseGroup CourseGroup { get; set; }
+
+
+        [Required, MaxLength(200)]
+        public string TypeDescribe { get; set; }
     }
 }
