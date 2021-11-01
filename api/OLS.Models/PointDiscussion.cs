@@ -13,9 +13,5 @@ namespace OLS.Models
 
         [ForeignKey("SectinPointId")]
         public SectionPoint SectionPoint { get; set; }
-
-        //TODO:章节中的讨论
-
-
     }
 }

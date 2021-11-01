@@ -26,7 +26,7 @@ namespace OLS.Models
         public string PointUrl { get; set; }
 
         [Required]
-        public string typeId { get; set; }
+        public int TypeId { get; set; }
 
         [ForeignKey("TypeId")]
         public PointType PointType { get; set; }

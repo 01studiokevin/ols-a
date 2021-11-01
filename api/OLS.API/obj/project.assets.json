@@ -5592,11 +5592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.API\\OLS.API.csproj",
+      "projectUniqueName": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj",
       "projectName": "OLS.API",
-      "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.API\\OLS.API.csproj",
+      "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.API\\obj\\",
+      "outputPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5613,11 +5613,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
-              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj"
+            "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
+              "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj"
             },
-            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
-              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
+            "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
+              "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
             }
           }
         }

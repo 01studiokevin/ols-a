@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {}
+    "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
+    "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj",
         "projectName": "OLS.Models",
-        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj",
+        "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",

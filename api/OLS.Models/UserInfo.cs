@@ -25,10 +25,7 @@ namespace OLS.Models
         [MaxLength(150)]
         public string Profile { get; set; }
 
-        [Required, MaxLength(20)]
-        public string LastLogin { get; set; }
-
-        [Required, MaxLength(200)]
+        [MaxLength(200)]
         public string Describe { get; set; }
 
         [Required, MaxLength(1)]

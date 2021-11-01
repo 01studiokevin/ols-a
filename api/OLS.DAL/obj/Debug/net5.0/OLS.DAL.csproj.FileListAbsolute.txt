@@ -1,0 +1,17 @@
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\bin\Debug\net5.0\OLS.DAL.deps.json
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\bin\Debug\net5.0\OLS.DAL.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\bin\Debug\net5.0\ref\OLS.DAL.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\bin\Debug\net5.0\OLS.DAL.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\bin\Debug\net5.0\OLS.EF.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\bin\Debug\net5.0\OLS.Models.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\bin\Debug\net5.0\OLS.EF.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\bin\Debug\net5.0\OLS.Models.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\OLS.DAL.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\OLS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\OLS.DAL.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\OLS.DAL.AssemblyInfo.cs
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\OLS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\OLS.DAL.csproj.CopyComplete
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\OLS.DAL.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\ref\OLS.DAL.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.DAL\obj\Debug\net5.0\OLS.DAL.pdb
