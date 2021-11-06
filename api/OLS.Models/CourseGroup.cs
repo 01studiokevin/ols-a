@@ -9,13 +9,16 @@ namespace OLS.Models
         public int Id { get; set; }
 
         [Required, MaxLength(50)]
-        public string CourseGroupName { get; set; }
+        public string Name { get; set; }
 
         [Required, MaxLength(50)]
-        public string CourseGroupValue { get; set; }
+        public string Rotuer { get; set; }
 
-        [Required, MaxLength(50)]
-        public string CourseGroupRouter { get; set; }
+        [Required]
+        public int SectionId { get; set; }
+
+        [ForeignKey("SectionId")]
+        public  CourseSection CourseSection { get; set; }
 
         [Required, MaxLength(200)]
         public string Describe { get; set; }

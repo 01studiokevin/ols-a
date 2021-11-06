@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OLS.EF\OLS.EF.csproj" />
-    <ProjectReference Include="..\OLS.Models\OLS.Models.csproj" />
+    <ProjectReference Include="..\OLS.IDAL\OLS.IDAL.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OLS.IUtils\OLS.IUtils.csproj" />
+    <ProjectReference Include="..\OLS.Models\OLS.Models.csproj" />
   </ItemGroup>
 
 </Project>

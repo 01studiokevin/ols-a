@@ -1470,6 +1470,35 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "OLS.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OLS.IApplication": "1.0.0",
+          "OLS.IDAL": "1.0.0",
+          "OLS.IUtils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OLS.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OLS.Application.dll": {}
+        }
+      },
+      "OLS.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OLS.EF": "1.0.0",
+          "OLS.IDAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OLS.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OLS.DAL.dll": {}
+        }
+      },
       "OLS.EF/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1486,6 +1515,42 @@
           "bin/placeholder/OLS.EF.dll": {}
         }
       },
+      "OLS.IApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/OLS.IApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OLS.IApplication.dll": {}
+        }
+      },
+      "OLS.IDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OLS.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OLS.IDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OLS.IDAL.dll": {}
+        }
+      },
+      "OLS.IUtils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OLS.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OLS.IUtils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OLS.IUtils.dll": {}
+        }
+      },
       "OLS.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1494,6 +1559,21 @@
         },
         "runtime": {
           "bin/placeholder/OLS.Models.dll": {}
+        }
+      },
+      "OLS.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "OLS.IUtils": "1.0.0",
+          "OLS.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OLS.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OLS.Utils.dll": {}
         }
       }
     }
@@ -5565,24 +5645,58 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "OLS.Application/1.0.0": {
+      "type": "project",
+      "path": "../OLS.Application/OLS.Application.csproj",
+      "msbuildProject": "../OLS.Application/OLS.Application.csproj"
+    },
+    "OLS.DAL/1.0.0": {
+      "type": "project",
+      "path": "../OLS.DAL/OLS.DAL.csproj",
+      "msbuildProject": "../OLS.DAL/OLS.DAL.csproj"
+    },
     "OLS.EF/1.0.0": {
       "type": "project",
       "path": "../OLS.EF/OLS.EF.csproj",
       "msbuildProject": "../OLS.EF/OLS.EF.csproj"
     },
+    "OLS.IApplication/1.0.0": {
+      "type": "project",
+      "path": "../OLS.IApplication/OLS.IApplication.csproj",
+      "msbuildProject": "../OLS.IApplication/OLS.IApplication.csproj"
+    },
+    "OLS.IDAL/1.0.0": {
+      "type": "project",
+      "path": "../OLS.IDAL/OLS.IDAL.csproj",
+      "msbuildProject": "../OLS.IDAL/OLS.IDAL.csproj"
+    },
+    "OLS.IUtils/1.0.0": {
+      "type": "project",
+      "path": "../OLS.IUtils/OLS.IUtils.csproj",
+      "msbuildProject": "../OLS.IUtils/OLS.IUtils.csproj"
+    },
     "OLS.Models/1.0.0": {
       "type": "project",
       "path": "../OLS.Models/OLS.Models.csproj",
       "msbuildProject": "../OLS.Models/OLS.Models.csproj"
+    },
+    "OLS.Utils/1.0.0": {
+      "type": "project",
+      "path": "../OLS.Utils/OLS.Utils.csproj",
+      "msbuildProject": "../OLS.Utils/OLS.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore.Design >= 5.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11",
-      "Newtonsoft.Json >= 13.0.1",
+      "OLS.Application >= 1.0.0",
+      "OLS.DAL >= 1.0.0",
       "OLS.EF >= 1.0.0",
-      "OLS.Models >= 1.0.0",
+      "OLS.IApplication >= 1.0.0",
+      "OLS.IDAL >= 1.0.0",
+      "OLS.IUtils >= 1.0.0",
+      "OLS.Utils >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -5592,11 +5706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj",
-      "projectName": "OLS.API",
-      "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj",
+      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\OLS.Api.csproj",
+      "projectName": "OLS.Api",
+      "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\OLS.Api.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\obj\\",
+      "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5613,11 +5727,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
-              "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj"
+            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Application\\OLS.Application.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Application\\OLS.Application.csproj"
             },
-            "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
-              "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
+            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.DAL\\OLS.DAL.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.DAL\\OLS.DAL.csproj"
+            },
+            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj"
+            },
+            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj"
+            },
+            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj"
+            },
+            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj"
+            },
+            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Utils\\OLS.Utils.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Utils\\OLS.Utils.csproj"
             }
           }
         }
@@ -5641,10 +5770,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.11, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

@@ -1,0 +1,12 @@
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\bin\Debug\net5.0\OLS.IApplication.deps.json
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\bin\Debug\net5.0\OLS.IApplication.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\bin\Debug\net5.0\ref\OLS.IApplication.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\bin\Debug\net5.0\OLS.IApplication.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\obj\Debug\net5.0\OLS.IApplication.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\obj\Debug\net5.0\OLS.IApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\obj\Debug\net5.0\OLS.IApplication.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\obj\Debug\net5.0\OLS.IApplication.AssemblyInfo.cs
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\obj\Debug\net5.0\OLS.IApplication.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\obj\Debug\net5.0\OLS.IApplication.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\obj\Debug\net5.0\ref\OLS.IApplication.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IApplication\obj\Debug\net5.0\OLS.IApplication.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "803zGBR9Ne6CPJcR29YoR5WDWg+QOuQQTAIFpPuWXg+8EZ6XshazwRnCQzuUja65+6ZuWPPmOIYmvbnT0KHJ/w==",
+  "dgSpecHash": "XYKh894Hdn/19MDmIqRpq6I+aQxjllt7dRTSst8qBJ93fGM8vGG9hhcFiYmOdM/0u5QkWUoV4ciXkYmZgX8hVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj",
+  "projectFilePath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\OLS.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "OLS.Application/1.0.0": {
+        "dependencies": {
+          "OLS.IApplication": "1.0.0",
+          "OLS.IDAL": "1.0.0",
+          "OLS.IUtils": "1.0.0"
+        },
+        "runtime": {
+          "OLS.Application.dll": {}
+        }
+      },
+      "OLS.IApplication/1.0.0": {
+        "runtime": {
+          "OLS.IApplication.dll": {}
+        }
+      },
+      "OLS.IDAL/1.0.0": {
+        "dependencies": {
+          "OLS.Models": "1.0.0"
+        },
+        "runtime": {
+          "OLS.IDAL.dll": {}
+        }
+      },
+      "OLS.IUtils/1.0.0": {
+        "dependencies": {
+          "OLS.Models": "1.0.0"
+        },
+        "runtime": {
+          "OLS.IUtils.dll": {}
+        }
+      },
+      "OLS.Models/1.0.0": {
+        "runtime": {
+          "OLS.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OLS.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.IApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.IDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.IUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

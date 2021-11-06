@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj": {}
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\OLS.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj": {
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\OLS.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj",
-        "projectName": "OLS.API",
-        "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\OLS.API.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\OLS.Api.csproj",
+        "projectName": "OLS.Api",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\OLS.Api.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\ols.api\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,26 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
-                "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj"
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Application\\OLS.Application.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Application\\OLS.Application.csproj"
               },
-              "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
-                "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.DAL\\OLS.DAL.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.DAL\\OLS.DAL.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Utils\\OLS.Utils.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Utils\\OLS.Utils.csproj"
               }
             }
           }
@@ -56,10 +71,6 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.11, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -88,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Application\\OLS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj",
-        "projectName": "OLS.EF",
-        "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Application\\OLS.Application.csproj",
+        "projectName": "OLS.Application",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Application\\OLS.Application.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.EF\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,8 +123,133 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
-                "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.DAL\\OLS.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.DAL\\OLS.DAL.csproj",
+        "projectName": "OLS.DAL",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.DAL\\OLS.DAL.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj",
+        "projectName": "OLS.EF",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
               }
             }
           }
@@ -172,14 +308,14 @@
         }
       }
     },
-    "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj",
-        "projectName": "OLS.Models",
-        "projectPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj",
+        "projectName": "OLS.IApplication",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\OLS.IApplication.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\desktop\\0\\git\\ols\\api\\OLS.Models\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,6 +343,243 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj",
+        "projectName": "OLS.IDAL",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj",
+        "projectName": "OLS.IUtils",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj",
+        "projectName": "OLS.Models",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Utils\\OLS.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Utils\\OLS.Utils.csproj",
+        "projectName": "OLS.Utils",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Utils\\OLS.Utils.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IUtils\\OLS.IUtils.csproj"
+              },
+              "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

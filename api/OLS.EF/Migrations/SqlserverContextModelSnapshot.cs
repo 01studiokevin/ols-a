@@ -155,29 +155,50 @@ namespace OLS.EF.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CourseGroupName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("CourseGroupRouter")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("CourseGroupValue")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
                     b.Property<string>("Describe")
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Rotuer")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("SectionId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("SectionId");
+
                     b.ToTable("CourseGroup");
+                });
+
+            modelBuilder.Entity("OLS.Models.CourseSection", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Describe")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CourseSection");
                 });
 
             modelBuilder.Entity("OLS.Models.CourseTeacher", b =>
@@ -235,6 +256,71 @@ namespace OLS.EF.Migrations
                     b.HasIndex("CourseGroupId");
 
                     b.ToTable("CourseType");
+                });
+
+            modelBuilder.Entity("OLS.Models.CourseTypeMany", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TypeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("TypeId");
+
+                    b.ToTable("CourseTypeMany");
+                });
+
+            modelBuilder.Entity("OLS.Models.MasterMenu", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Action")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Describe")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("Pid")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Seq")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(1)
+                        .HasColumnType("nvarchar(1)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MasterMenu");
                 });
 
             modelBuilder.Entity("OLS.Models.PointDiscussion", b =>
@@ -304,22 +390,6 @@ namespace OLS.EF.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Role");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Describe = "普通用户",
-                            RoleName = "用户",
-                            RoleValue = "1"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Describe = "权限：所有",
-                            RoleName = "管理员",
-                            RoleValue = "2"
-                        });
                 });
 
             modelBuilder.Entity("OLS.Models.School", b =>
@@ -490,18 +560,6 @@ namespace OLS.EF.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserInfo");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Account = "kevin.minghang.li@outlook.com",
-                            Gender = "1",
-                            IsActive = "1",
-                            Password = "123456",
-                            Tel = "19923985290",
-                            UserName = "李明航"
-                        });
                 });
 
             modelBuilder.Entity("OLS.Models.UserInfoDetail", b =>
@@ -553,14 +611,6 @@ namespace OLS.EF.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserRole");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            RoleId = 1,
-                            UserId = 1
-                        });
                 });
 
             modelBuilder.Entity("OLS.Models.CourseChapter", b =>
@@ -583,6 +633,17 @@ namespace OLS.EF.Migrations
                         .IsRequired();
 
                     b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("OLS.Models.CourseGroup", b =>
+                {
+                    b.HasOne("OLS.Models.CourseSection", "CourseSection")
+                        .WithMany()
+                        .HasForeignKey("SectionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CourseSection");
                 });
 
             modelBuilder.Entity("OLS.Models.CourseTeacher", b =>
@@ -611,6 +672,25 @@ namespace OLS.EF.Migrations
                         .HasForeignKey("CourseGroupId");
 
                     b.Navigation("CourseGroup");
+                });
+
+            modelBuilder.Entity("OLS.Models.CourseTypeMany", b =>
+                {
+                    b.HasOne("OLS.Models.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OLS.Models.CourseType", "CourseType")
+                        .WithMany()
+                        .HasForeignKey("TypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("CourseType");
                 });
 
             modelBuilder.Entity("OLS.Models.PointDiscussion", b =>

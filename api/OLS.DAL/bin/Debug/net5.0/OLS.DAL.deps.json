@@ -9,7 +9,7 @@
       "OLS.DAL/1.0.0": {
         "dependencies": {
           "OLS.EF": "1.0.0",
-          "OLS.Models": "1.0.0"
+          "OLS.IDAL": "1.0.0"
         },
         "runtime": {
           "OLS.DAL.dll": {}
@@ -1051,6 +1051,14 @@
           "OLS.EF.dll": {}
         }
       },
+      "OLS.IDAL/1.0.0": {
+        "dependencies": {
+          "OLS.Models": "1.0.0"
+        },
+        "runtime": {
+          "OLS.IDAL.dll": {}
+        }
+      },
       "OLS.Models/1.0.0": {
         "runtime": {
           "OLS.Models.dll": {}
@@ -1723,6 +1731,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "OLS.EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.IDAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

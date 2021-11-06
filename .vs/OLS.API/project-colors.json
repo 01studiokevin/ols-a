@@ -35,7 +35,12 @@
       "ProjectGuid": "7972db50-f89c-4cf5-ac74-be66a40af472",
       "DisplayName": "OLS.Utils",
       "ColorIndex": 5
+    },
+    "46fd9d12-af7d-44e2-b3b0-e0c2d57d3dfc": {
+      "ProjectGuid": "46fd9d12-af7d-44e2-b3b0-e0c2d57d3dfc",
+      "DisplayName": "Api.Test",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

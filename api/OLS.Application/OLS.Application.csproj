@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OLS.IApplication\OLS.IApplication.csproj" />
+    <ProjectReference Include="..\OLS.IDAL\OLS.IDAL.csproj" />
+    <ProjectReference Include="..\OLS.IUtils\OLS.IUtils.csproj" />
+  </ItemGroup>
+
+</Project>

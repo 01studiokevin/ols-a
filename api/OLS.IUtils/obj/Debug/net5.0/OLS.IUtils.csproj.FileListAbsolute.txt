@@ -1,0 +1,15 @@
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\bin\Debug\net5.0\OLS.IUtils.deps.json
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\bin\Debug\net5.0\OLS.IUtils.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\bin\Debug\net5.0\ref\OLS.IUtils.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\bin\Debug\net5.0\OLS.IUtils.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\OLS.IUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\OLS.IUtils.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\OLS.IUtils.AssemblyInfo.cs
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\OLS.IUtils.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\OLS.IUtils.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\ref\OLS.IUtils.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\OLS.IUtils.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\OLS.IUtils.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\bin\Debug\net5.0\OLS.Models.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\bin\Debug\net5.0\OLS.Models.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IUtils\obj\Debug\net5.0\OLS.IUtils.csproj.CopyComplete

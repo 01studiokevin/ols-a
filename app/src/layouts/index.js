@@ -1,4 +1,5 @@
-import BasicLayout from "./BasicLayout";
-import ChannelLayout from "./ChannelLayout";
+import BasicLayout from "./BasicLayout.vue";
+import ChannelLayout from "./ChannelLayout.vue";
+import Adminlayout from "./admin/AdminLayout.vue";
 
-export { BasicLayout, ChannelLayout };
+export { BasicLayout, ChannelLayout, Adminlayout };

@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "70d24a49-bdd9-47af-918e-0ceb682857da": {
+      "ProjectGuid": "70d24a49-bdd9-47af-918e-0ceb682857da",
+      "DisplayName": "OLS.Api",
+      "ColorIndex": 0
+    },
+    "55966937-bad2-4032-a62c-cc7c7cae4876": {
+      "ProjectGuid": "55966937-bad2-4032-a62c-cc7c7cae4876",
+      "DisplayName": "OLS.EF",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "3d413dae-1ea8-4729-940d-8a02e050a6fe": {
+      "ProjectGuid": "3d413dae-1ea8-4729-940d-8a02e050a6fe",
+      "DisplayName": "OLS.Models",
+      "ColorIndex": 2
+    },
+    "a994cb96-20b0-40c8-bd4b-6ca491ea6667": {
+      "ProjectGuid": "a994cb96-20b0-40c8-bd4b-6ca491ea6667",
+      "DisplayName": "OLS.Utils",
+      "ColorIndex": 3
+    },
+    "51cf5420-30d5-4c0c-b465-5b5ffa71cbd4": {
+      "ProjectGuid": "51cf5420-30d5-4c0c-b465-5b5ffa71cbd4",
+      "DisplayName": "OLS.IUtils",
+      "ColorIndex": 4
+    },
+    "f2b3cbb6-d360-487b-b115-8b916bb38d0b": {
+      "ProjectGuid": "f2b3cbb6-d360-487b-b115-8b916bb38d0b",
+      "DisplayName": "OLS.DAL",
+      "ColorIndex": 5
+    },
+    "e0118cd2-8fb1-4de9-9365-492d6861ef4a": {
+      "ProjectGuid": "e0118cd2-8fb1-4de9-9365-492d6861ef4a",
+      "DisplayName": "OLS.IDAL",
+      "ColorIndex": 6
+    },
+    "300761a1-8da7-4a7a-b8ba-6c3565b493b2": {
+      "ProjectGuid": "300761a1-8da7-4a7a-b8ba-6c3565b493b2",
+      "DisplayName": "OLS.IApplication",
+      "ColorIndex": 7
+    },
+    "c714ed3b-964c-4e5a-9c10-72bb05a71232": {
+      "ProjectGuid": "c714ed3b-964c-4e5a-9c10-72bb05a71232",
+      "DisplayName": "OLS.Application",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

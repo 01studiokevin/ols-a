@@ -18,7 +18,6 @@ namespace OLS.Models
 
         public CourseGroup CourseGroup { get; set; }
 
-
         [Required, MaxLength(200)]
         public string TypeDescribe { get; set; }
     }

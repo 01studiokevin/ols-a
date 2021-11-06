@@ -1498,6 +1498,19 @@
           "bin/placeholder/OLS.EF.dll": {}
         }
       },
+      "OLS.IDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OLS.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OLS.IDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OLS.IDAL.dll": {}
+        }
+      },
       "OLS.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5725,6 +5738,11 @@
       "path": "../OLS.EF/OLS.EF.csproj",
       "msbuildProject": "../OLS.EF/OLS.EF.csproj"
     },
+    "OLS.IDAL/1.0.0": {
+      "type": "project",
+      "path": "../OLS.IDAL/OLS.IDAL.csproj",
+      "msbuildProject": "../OLS.IDAL/OLS.IDAL.csproj"
+    },
     "OLS.Models/1.0.0": {
       "type": "project",
       "path": "../OLS.Models/OLS.Models.csproj",
@@ -5734,7 +5752,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "OLS.EF >= 1.0.0",
-      "OLS.Models >= 1.0.0"
+      "OLS.IDAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5767,8 +5785,8 @@
             "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj": {
               "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.EF\\OLS.EF.csproj"
             },
-            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj": {
-              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.Models\\OLS.Models.csproj"
+            "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\0\\git\\ols\\api\\OLS.IDAL\\OLS.IDAL.csproj"
             }
           }
         }

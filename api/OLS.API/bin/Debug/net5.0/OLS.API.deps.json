@@ -31,13 +31,17 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "OLS.API/1.0.0": {
+      "OLS.Api/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "5.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
-          "Newtonsoft.Json": "13.0.1",
+          "OLS.Application": "1.0.0",
+          "OLS.DAL": "1.0.0",
           "OLS.EF": "1.0.0",
-          "OLS.Models": "1.0.0",
+          "OLS.IApplication": "1.0.0",
+          "OLS.IDAL": "1.0.0",
+          "OLS.IUtils": "1.0.0",
+          "OLS.Utils": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -322,10 +326,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "OLS.API.dll": {}
+          "OLS.Api.dll": {}
         },
         "compile": {
-          "OLS.API.dll": {}
+          "OLS.Api.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1286,6 +1290,31 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "OLS.Application/1.0.0": {
+        "dependencies": {
+          "OLS.IApplication": "1.0.0",
+          "OLS.IDAL": "1.0.0",
+          "OLS.IUtils": "1.0.0"
+        },
+        "runtime": {
+          "OLS.Application.dll": {}
+        },
+        "compile": {
+          "OLS.Application.dll": {}
+        }
+      },
+      "OLS.DAL/1.0.0": {
+        "dependencies": {
+          "OLS.EF": "1.0.0",
+          "OLS.IDAL": "1.0.0"
+        },
+        "runtime": {
+          "OLS.DAL.dll": {}
+        },
+        "compile": {
+          "OLS.DAL.dll": {}
+        }
+      },
       "OLS.EF/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.11",
@@ -1300,12 +1329,55 @@
           "OLS.EF.dll": {}
         }
       },
+      "OLS.IApplication/1.0.0": {
+        "runtime": {
+          "OLS.IApplication.dll": {}
+        },
+        "compile": {
+          "OLS.IApplication.dll": {}
+        }
+      },
+      "OLS.IDAL/1.0.0": {
+        "dependencies": {
+          "OLS.Models": "1.0.0"
+        },
+        "runtime": {
+          "OLS.IDAL.dll": {}
+        },
+        "compile": {
+          "OLS.IDAL.dll": {}
+        }
+      },
+      "OLS.IUtils/1.0.0": {
+        "dependencies": {
+          "OLS.Models": "1.0.0"
+        },
+        "runtime": {
+          "OLS.IUtils.dll": {}
+        },
+        "compile": {
+          "OLS.IUtils.dll": {}
+        }
+      },
       "OLS.Models/1.0.0": {
         "runtime": {
           "OLS.Models.dll": {}
         },
         "compile": {
           "OLS.Models.dll": {}
+        }
+      },
+      "OLS.Utils/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "OLS.IUtils": "1.0.0",
+          "OLS.Models": "1.0.0"
+        },
+        "runtime": {
+          "OLS.Utils.dll": {}
+        },
+        "compile": {
+          "OLS.Utils.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2997,7 +3069,7 @@
     }
   },
   "libraries": {
-    "OLS.API/1.0.0": {
+    "OLS.Api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3688,12 +3760,42 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "OLS.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "OLS.EF/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "OLS.IApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.IDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.IUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "OLS.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLS.Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

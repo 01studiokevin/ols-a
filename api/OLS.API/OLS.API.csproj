@@ -10,13 +10,17 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OLS.Application\OLS.Application.csproj" />
+    <ProjectReference Include="..\OLS.DAL\OLS.DAL.csproj" />
     <ProjectReference Include="..\OLS.EF\OLS.EF.csproj" />
-    <ProjectReference Include="..\OLS.Models\OLS.Models.csproj" />
+    <ProjectReference Include="..\OLS.IApplication\OLS.IApplication.csproj" />
+    <ProjectReference Include="..\OLS.IDAL\OLS.IDAL.csproj" />
+    <ProjectReference Include="..\OLS.IUtils\OLS.IUtils.csproj" />
+    <ProjectReference Include="..\OLS.Utils\OLS.Utils.csproj" />
   </ItemGroup>
 
 </Project>

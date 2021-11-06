@@ -2,6 +2,8 @@ C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\bin\Debug\net5.0\OLS.Utils.deps.j
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\bin\Debug\net5.0\OLS.Utils.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\bin\Debug\net5.0\ref\OLS.Utils.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\bin\Debug\net5.0\OLS.Utils.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\bin\Debug\net5.0\OLS.IUtils.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\bin\Debug\net5.0\OLS.IUtils.pdb
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\obj\Debug\net5.0\OLS.Utils.csproj.AssemblyReference.cache
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\obj\Debug\net5.0\OLS.Utils.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\obj\Debug\net5.0\OLS.Utils.AssemblyInfoInputs.cache
@@ -10,3 +12,6 @@ C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\obj\Debug\net5.0\OLS.Utils.csproj
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\obj\Debug\net5.0\OLS.Utils.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\obj\Debug\net5.0\ref\OLS.Utils.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\obj\Debug\net5.0\OLS.Utils.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\bin\Debug\net5.0\OLS.Models.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\bin\Debug\net5.0\OLS.Models.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.Utils\obj\Debug\net5.0\OLS.Utils.csproj.CopyComplete

@@ -1,21 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using OLS.Application;
+using OLS.DAL;
 using OLS.EF;
+using OLS.IApplication;
+using OLS.IDAL;
+using OLS.IUtils;
 using OLS.Models;
+using OLS.Utils;
 
-namespace OLS.API
+namespace OLS.Api
 {
     public class Startup
     {
@@ -31,13 +30,18 @@ namespace OLS.API
         {
 
             services.AddControllers();
+
+            services.AddTransient<IManageServers, ManageServers>();
+            services.AddTransient<IMasterMenuServers,MasterMenuServers>();
+            services.AddTransient<ITool, Tool>();
+
+
             services.AddDbContext<SqlserverContext>(
-                options=>options.UseSqlServer(Configuration.GetConnectionString("Default")));
+                options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "OLS.API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "OLS.Api", Version = "v1" });
             });
-            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +51,7 @@ namespace OLS.API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "OLS.API v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "OLS.Api v1"));
             }
 
             app.UseHttpsRedirection();

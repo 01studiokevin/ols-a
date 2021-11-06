@@ -1,21 +1,25 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import { BasicLayout, ChannelLayout } from "../layouts";
-const defaultTitle = "好学兔--在线学习平台";
+
+//channel page list
+import channels from "./channel.router";
+
+const defaultTitle = "好学兔--精品课程在线学习平台";
+
 const routes = [
 	{
 		path: "/",
 		name: "Home",
-		component: BasicLayout,
-		meta: { title: "好学兔-精品课程在线学习平台" },
+		component: () => import("../layouts/BasicLayout.vue"),
+		meta: { title: defaultTitle },
 		redirect: "/home",
 		children: [
 			{
 				path: "/home",
 				name: "Home",
 				meta: {
-					title: "好学兔-精品课程在线学习平台",
+					title: defaultTitle,
 				},
-				component: () => import("../views/busines/Home.vue"),
+				component: () => import("@views/busines/Home.vue"),
 			},
 			{
 				path: "/course",
@@ -23,29 +27,51 @@ const routes = [
 				meta: {
 					title: "课程",
 				},
-				component: () => import("../views/busines/Course.vue"),
+				component: () => import("@views/busines/Course.vue"),
 			},
 			{
 				path: "/channel",
 				name: "Channel",
-				component: ChannelLayout,
+				component: () => import("../views/channel/index.vue"),
+				redirect: "/404",
 				meta: { title: "频道 & 好学兔" },
-				redirect: "/home",
-				children: [
-					{
-						path: "/channel/3002",
-						name: "3002",
-						meta: { title: "计算机" },
-						component: () => import("../views/channel/3002.vue"),
-					},
-				],
+				children: [...channels],
 			},
 		],
 	},
 	{
 		path: "/login",
 		name: "Login",
-		component: () => import("../views/busines/Login.vue"),
+		component: () => import("@views/busines/Login.vue"),
+	},
+	// {
+	// 	path: "/manage",
+	// 	name: "Manage",
+	// 	component: Adminlayout,
+	// 	meta: { title: adminTitle },
+	// 	redirect: "/dashboard",
+	// 	children: [
+	// 		{
+	// 			path: "/dashboard",
+	// 			name: "Dashboard",
+	// 			meta: {
+	// 				title: adminTitle,
+	// 			},
+	// 			component: () => import("@views/admin/dashboard/dashboard.vue"),
+	// 		},
+	// 		{
+	// 			path: "/Menus",
+	// 			name: "Menus",
+	// 			meta: {
+	// 				title: "菜单管理" + suffixTitle,
+	// 			},
+	// 			component: () => import("@views/admin/Menu/Index.vue"),
+	// 		},
+	// 	],
+	// },
+	{
+		path: "/:catchAll(.*)",
+		component: () => import("@/views/404.vue"),
 	},
 ];
 

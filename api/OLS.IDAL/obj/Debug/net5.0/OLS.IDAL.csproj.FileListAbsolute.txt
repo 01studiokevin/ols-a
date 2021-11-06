@@ -1,0 +1,15 @@
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\bin\Debug\net5.0\OLS.IDAL.deps.json
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\bin\Debug\net5.0\OLS.IDAL.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\bin\Debug\net5.0\ref\OLS.IDAL.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\bin\Debug\net5.0\OLS.IDAL.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\OLS.IDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\OLS.IDAL.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\OLS.IDAL.AssemblyInfo.cs
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\OLS.IDAL.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\OLS.IDAL.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\ref\OLS.IDAL.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\OLS.IDAL.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\OLS.IDAL.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\bin\Debug\net5.0\OLS.Models.dll
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\bin\Debug\net5.0\OLS.Models.pdb
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.IDAL\obj\Debug\net5.0\OLS.IDAL.csproj.CopyComplete

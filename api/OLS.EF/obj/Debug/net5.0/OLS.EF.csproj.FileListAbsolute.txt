@@ -1,3 +1,8 @@
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.AssemblyInfo.cs
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.csproj.CoreCompileInputs.cache
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\bin\Debug\net5.0\OLS.EF.deps.json
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\bin\Debug\net5.0\OLS.EF.runtimeconfig.json
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\bin\Debug\net5.0\OLS.EF.runtimeconfig.dev.json
@@ -6,12 +11,8 @@ C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\bin\Debug\net5.0\ref\OLS.EF.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\bin\Debug\net5.0\OLS.EF.pdb
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\bin\Debug\net5.0\OLS.Models.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\bin\Debug\net5.0\OLS.Models.pdb
-C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.csproj.AssemblyReference.cache
-C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.AssemblyInfoInputs.cache
-C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.AssemblyInfo.cs
-C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.csproj.CoreCompileInputs.cache
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\ref\OLS.EF.dll
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.pdb
 C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.genruntimeconfig.cache
+C:\Users\kevin\Desktop\0\git\ols\api\OLS.EF\obj\Debug\net5.0\OLS.EF.csproj.CopyComplete

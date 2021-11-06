@@ -24,6 +24,7 @@ module.exports = {
 			.set("@", resolve("src"))
 			.set("@assets", resolve("src/assets"))
 			.set("@components", resolve("src/components"))
+			.set("@layouts", resolve("src/layouts"))
 			.set("@views", resolve("src/views"))
 			.set("@store", resolve("src/store"));
 	},
@@ -51,7 +52,7 @@ module.exports = {
 		https: true, // https:{type:Boolean}
 		open: false, //配置自动启动浏览器
 		hotOnly: true, // 热更新
-		// proxy: 'http://localhost:8080',   // 配置跨域处理,只有一个代理
+		// proxy: "http://localhost:5001", // 配置跨域处理,只有一个代理
 		proxy: {
 			//配置多个跨域
 			"/api": {
